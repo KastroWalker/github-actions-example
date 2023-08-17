@@ -7,7 +7,7 @@ app.get('/', (_, res) => {
 });
 
 app.get('/contact', (_, res) => {
-  res.status(200).send('Contact page');
+  res.status(200).send('Contact Matheus');
 });
 
 module.exports = app;
